@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 1,
-    imgsrc: "https://www.swiggy.com/restaurants/fried-chicken-cuisine-fcc-sv-road-byculla-mumbai-26838",
+    imgsrc: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/gzpbhaspfffv0z2owguf",
     name: "Fried Chicken Cuisine-FCC",
     description: "American, Fast Food",
     rating: 4.3,
@@ -11,7 +11,7 @@ module.exports = [
   },
   {
     id: 2,
-    imgsrc: "https://www.swiggy.com/restaurants/cafe-2-0-lalbaug-parel-mumbai-60907",
+    imgsrc: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/yq6bc70klxog72q6fcy6",
     name: "Fast Food, Pastas, Pizzas",
     description: "North Indian, Home Food, Combo, Desserts, Beverages, Snacks",
     rating: 4.2,
@@ -21,7 +21,7 @@ module.exports = [
   },
   {
     id: 3,
-    imgsrc: "https://www.swiggy.com/restaurants/medha-malvan-lower-parel-worli-mumbai-354577",
+    imgsrc: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/dui3oalkmdve7dtwklad",
     name: "Medha Malvan",
     description: "Malwani, Seafood",
     rating: 4.4,
@@ -31,12 +31,32 @@ module.exports = [
   },
   {
     id: 4,
-    imgsrc: "https://www.swiggy.com/restaurants/yum-yum-chi-chowpatty-mumbai-295912",
+    imgsrc: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/pvzbvtqsuzh06pvrwrwl",
     name: "Yum Yum Chi",
     description: "Chinese, Continental, Pan-Asian",
     rating: 4.4,
     rating_vote: 251,
     avg_cost: 350,
+    location: "parel, Mumbai",
+  },
+  {
+    id: 5,
+    imgsrc: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ipuppwyw0tjuap5wrwxu",
+    name: "Chai Point",
+    description: "Healthy Food, Bakery, Cafe, Combo, Beverages, Maharashtrian, Snacks,",
+    rating: 3,
+    rating_vote: 251,
+    avg_cost: 150,
+    location: "parel, Mumbai",
+  },
+  {
+    id: 6,
+    imgsrc: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/fvtpvqzgjfrt8cyfef5p",
+    name: "Birdy's Cake Shop",
+    description: "Desserts, Fast Food, Bakery",
+    rating: 5,
+    rating_vote: 251,
+    avg_cost: 1550,
     location: "parel, Mumbai",
   },
 ];
