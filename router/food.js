@@ -7,7 +7,7 @@ const Food = require("../database/Food");
 // Read All
 Router.get("/", (req, res) => {
   res.header("Content-Type", "application/json");
-  res.json(Food);
+  res.send(JSON.stringify(Food, null, 2));
 });
 
 // Read Single

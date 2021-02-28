@@ -4,7 +4,7 @@ const Restaurant = require("../database/Restaurant");
 /* Fetch Restaurant */
 Router.get("/", (req, res) => {
   res.header("Content-Type", "application/json");
-  res.json(Restaurant);
+  res.send(JSON.stringify(Restaurant, null, 2));
 });
 
 module.exports = Router;
